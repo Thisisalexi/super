@@ -1,0 +1,602 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+body {
+    background-color: black;
+    width: 100% ;
+}
+
+.navbar {
+    height: 70px;
+    background-color: rgb(39, 35, 35);
+}
+
+.media {
+    padding-left: 120px;
+}
+
+.media-body {
+    padding-left: 20px;
+}
+
+.media-body h5 {
+    color: orangered;
+    font-size: 12.6px;
+    font-family: sans-serif;
+}
+
+.media-body p {
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.collapse {
+    font-size: 14.4px;
+    font-family: sans-serif;
+}
+
+.jumbotron1 {
+    background-image: url(/images/bk-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 53% 16px;
+    background-attachment: fixed;
+   
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.jumbotron1 h1 {
+    font-size: 1rem;
+    font-family: 'Megrim', cursive;
+    color: yellow;
+}
+
+.jumbotron1 .lead {
+    font-size: 2.2rem;
+    color: white;
+    font-family: sans-serif;
+}
+
+.jumbotron1 .lit {
+    font-size: 2rem;
+    font-family: 'Megrim', cursive;
+    color: white;
+}
+
+.jumbotron1 .best {
+    font-size: 1rem;
+    color: white;
+    font-family: sans-serif;
+}
+
+.jumbotron1 .let {
+    font-family: 'Megrim', cursive;
+    border-radius: 12px;
+    background-color: rgba(220, 103, 20, 0.797);
+}
+
+.jumbotron1 .let2 {
+    font-family: 'Megrim', cursive;
+    color: burlywood;
+    background-color: black;
+    margin-left: 30px; 
+    border-radius: 12px;
+}
+
+.jumbotron2 h1 {
+    padding-top: 60px;
+    font-size: 45px;
+    font-family: 'Megrim', cursive;
+}
+
+.jumbotron2 .lead {
+    font-size: 45px;
+    font-family: 'Megrim', cursive;
+    color: orangered;
+    border-bottom: 1px solid burlywood;
+} 
+
+.jumbotron2 p {
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    display: inline-block;
+    padding-top: 20px; 
+}
+
+.jumbotron2 .btn {
+    margin-bottom: 45px;
+    margin-top: 45px;
+    color: burlywood;
+    background-color: black;
+    font-family: 'Megrim', cursive;
+    border-color: burlywood;
+    border-radius: 12px;
+}
+
+.table {
+    border-top: 1px solid grey;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.exchange h1 {
+    font-size: 36px;
+    font-family: 'Megrim', cursive;
+    color: burlywood;
+    border-bottom: 1px solid burlywood;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.exchange .row {
+    padding-top: 30px;
+    padding-bottom: 150px;
+    margin-left: 300px;
+}
+
+.exchange .link {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 22.5px;
+}
+
+.disclaimer {
+    padding-left: 250px;
+    padding-right: 300px;
+}
+
+.disclaimer h1 {
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+.disclaimer p {
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.disclaimer .card-body {
+    text-align: center;
+}
+
+.disclaimer .bsc {
+    font-family: 'Megrim', cursive;
+    font-size: 30px;
+    background-color: orange;
+    margin-right: 100px;
+    border-radius: 12px;
+}
+.disclaimer .eth {
+    font-family: 'Megrim', cursive;
+    font-size: 30px;
+    background-color: black;
+    margin-left: 40px;
+    border-radius: 12px;
+}
+
+.disclaimer .des {
+    background-color: rgba(66, 49, 49, 0.425);
+    padding-top: 60px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-top: -35px;
+    margin-bottom: 60px;
+    border-radius: 12px;
+}
+
+.disclaimer .copy {
+    font-size: 18px;
+    font-family: 'Megrim', cursive;
+    background-color: orange;
+    border-radius: 12px;
+}
+
+.disclaimer .no {
+    font-size: 22px;
+    font-family: sans-serif;
+    border-radius: 12px;
+}
+
+.chart h1 {
+    border-top: 1px solid grey;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Megrim', cursive;
+}
+
+.chart .card {
+    background-color: black;
+}
+
+.chart .col {
+    margin-bottom: 40px;
+    border-radius: 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.chart {
+    margin-bottom: 200px;
+}
+
+.news h1 {
+    margin-bottom: 150px;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    font-family: 'Megrim', cursive;
+}
+
+.news .cl {
+    margin-top: 70px;
+    margin-bottom: 200px;
+}
+
+.note {
+    background-image: url(/images/bk2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 53% 16px;
+    background-attachment: fixed;
+    padding-left: 300px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.note h1 {
+    margin-top: -40px;
+    color: burlywood;
+    font-family: 'Megrim', cursive;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 400px;
+}
+
+.note .r1 {
+    padding-top: 40px;
+}
+
+.note .r2 {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.note .card {
+    height: 200px;
+}
+
+.note .card {
+    background-color: rgba(113, 92, 92, 0.51);
+    border-radius: 10px;
+    padding: 18px 5px;
+}
+
+.note li {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer h1 {
+    font-size: 36px;
+    color: burlywood;
+    font-family: 'Megrim', cursive;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+.footer .p {
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.footer .card {
+    height: 50px;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.footer .c {
+    width: 70%;
+}
+
+.footer .c2 {
+    justify-content: flex-end;
+    width: 30%;
+}
+ 
+.pat {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+
+.copy h1 {
+    font-family: 'Megrim', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    border-top: 1px solid white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+
+.jumbotron1 .row {
+    width: 80%;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+   
+    body {
+        background-color: black;
+        width: 100% ;
+    }
+
+    .media {
+        padding-left: 0px;
+        
+    }
+    
+    .media-body {
+        padding-left: 0px;
+    }
+    
+    .collapse {
+        font-size: 14.4px;
+        font-family: sans-serif;
+    }
+
+    .jumbotron1 {
+        background-image: url(/images/bk-img.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 25% 16px;
+        background-attachment: fixed;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+
+    .jumbotron1 .row {
+        margin: 0 auto;
+    }
+
+    .exchange .row {
+        padding-top: 30px;
+        padding-bottom: 150px;
+        margin-left: 0px;
+    }
+
+    .disclaimer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .disclaimer h1 {
+        font-size: 1rem;
+        font-family: sans-serif;
+        color: white;
+    }
+    
+    .disclaimer p {
+        font-size: 0.9rem;
+        font-family: sans-serif;
+        color: white;
+        padding-bottom: 50px;
+    }
+    
+    .disclaimer .card-body {
+        text-align: center;
+    }
+    
+    .disclaimer .bsc {
+        font-family: 'Megrim', cursive;
+        font-size: 30px;
+        background-color: orange;
+        margin-right: 100px;
+        border-radius: 12px;
+    }
+    .disclaimer .eth {
+        font-family: 'Megrim', cursive;
+        font-size: 30px;
+        background-color: black;
+        margin-left: 40px;
+        border-radius: 12px;
+    }
+    
+    .disclaimer .des {
+        background-color: rgba(66, 49, 49, 0.425);
+        padding-top: 60px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        margin-top: -35px;
+        margin-bottom: 60px;
+        border-radius: 12px;
+    }
+    
+    .disclaimer .copy {
+        font-size: 18px;
+        font-family: 'Megrim', cursive;
+        background-color: orange;
+        border-radius: 12px;
+    }
+    
+    .disclaimer .no {
+        font-size: 22px;
+        font-family: sans-serif;
+        border-radius: 12px;
+    }
+    
+    .chart h1 {
+        border-top: 1px solid grey;
+        padding-top: 40px;
+        padding-bottom: 80px;
+        font-size: 36px;
+        text-align: center;
+        font-family: 'Megrim', cursive;
+    }
+    
+    .chart .card {
+        background-color: black;
+    }
+    
+    .chart .col {
+        margin-bottom: 40px;
+        border-radius: 12px;
+        text-decoration: none;
+    
+    }
+    
+    .chart {
+        margin-bottom: 200px;
+    }
+    
+    .news h1 {
+        margin-bottom: 150px;
+        text-align: center;
+        font-size: 36px;
+        color: white;
+        font-family: 'Megrim', cursive;
+    }
+    
+    .news .cl {
+        margin-top: 70px;
+        margin-bottom: 200px;
+    }
+    
+    .note {
+        background-image: url(/images/bk2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 25% 16px;
+        background-attachment: fixed;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 100px;
+    }
+    
+    .note h1 {
+        margin-top: -40px;
+        color: burlywood;
+        font-family: 'Megrim', cursive;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        margin-right: 400px;
+    }
+    
+    .note .r1 {
+        padding-top: 40px;
+    }
+    
+    .note .r2 {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    
+    .note .card {
+        height: 400px;
+    }
+    
+    .note .card {
+        background-color: rgba(113, 92, 92, 0.51);
+        border-radius: 10px;
+        padding: 18px 5px;
+    }
+    
+    .note li {
+        font-size: 15px;
+        font-family: sans-serif;
+        color: white;
+    }
+    
+    .footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .footer h1 {
+        font-size: 36px;
+        color: burlywood;
+        font-family: 'Megrim', cursive;
+        padding-bottom: 50px;
+        text-align: left;
+    }
+    
+    .footer .p {
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    
+    .footer .card {
+        height: 50px;
+        background-color: black;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .footer .c {
+        width: 70%;
+    }
+    
+    .footer .c2 {
+        justify-content: flex-end;
+        width: 30%;
+    }
+     
+    .pat {
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        width: 200px;
+        margin-bottom: 30px;
+        border-radius: 12px;
+    }
+    
+    .copy h1 {
+        font-family: 'Megrim', cursive;
+        font-size: 20px;
+        font-weight: bold;
+        border-top: 1px solid white;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        color: white;
+    }
+    
+    
+    .jumbotron1 .row {
+        width: 80%;
+    }
+}
+
+
+
+
+
