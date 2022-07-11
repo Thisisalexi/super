@@ -75,36 +75,6 @@ body {
     border-radius: 12px;
 }
 
-.jumbotron2 h1 {
-    padding-top: 60px;
-    font-size: 2.5rem;
-    font-family: 'Megrim', cursive;
-}
-
-.jumbotron2 .lead {
-    font-size: 2.5rem;
-    font-family: 'Megrim', cursive;
-    color: orangered;
-    border-bottom: 1px solid burlywood;
-} 
-
-.jumbotron2 p {
-    color: white;
-    font-size: 1rem;
-    font-family: sans-serif;
-    display: inline-block;
-    padding-top: 20px; 
-}
-
-.jumbotron2 .btn {
-    margin-bottom: 45px;
-    margin-top: 45px;
-    color: burlywood;
-    background-color: black;
-    font-family: 'Megrim', cursive;
-    border-color: burlywood;
-    border-radius: 12px;
-}
 
 .table {
     border-top: 1px solid grey;
@@ -348,6 +318,37 @@ body {
     padding-bottom: 100px;
 }
 
+.jumbotron2 h1 {
+    padding-top: 60px;
+    font-size: 2.5rem;
+    font-family: 'Megrim', cursive;
+}
+
+.jumbotron2 .lead {
+    font-size: 2.5rem;
+    font-family: 'Megrim', cursive;
+    color: orangered;
+    border-bottom: 1px solid burlywood;
+} 
+
+.jumbotron2 p {
+    color: white;
+    font-size: 1rem;
+    font-family: sans-serif;
+    display: inline-block;
+    padding-top: 20px; 
+}
+
+.jumbotron2 .btn {
+    margin-bottom: 45px;
+    margin-top: 45px;
+    color: burlywood;
+    background-color: black;
+    font-family: 'Megrim', cursive;
+    border-color: burlywood;
+    border-radius: 12px;
+}
+
 
 /* // Small devices (landscape phones, 576px and up) */
 
@@ -374,16 +375,7 @@ body {
         font-family: sans-serif;
     }
 
-    .jumbotron1 {
-        background-image: url(images/bk-img.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 25% 16px;
-        background-attachment: fixed;
-        padding-top: 150px;
-        padding-bottom: 100px;
-    }
-
+    
     .jumbotron1 .row {
         margin: 0 auto;
     }
@@ -491,17 +483,6 @@ body {
         margin-bottom: 200px;
     }
     
-    .note {
-        background-image: url(images/bk2.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 25% 16px;
-        background-attachment: fixed;
-        padding-left: 0px;
-        padding-top: 0px;
-        padding-bottom: 100px;
-    }
-    
     .note h1 {
         margin-top: -40px;
         color: burlywood;
@@ -596,6 +577,28 @@ body {
     .jumbotron1 .row {
         width: 80%;
     }
+    
+    .jumbotron1 {
+        background-image: url(images/bk-img.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 25% 16px;
+        background-attachment: fixed;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    
+    .note {
+        background-image: url(images/bk2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 25% 16px;
+        background-attachment: fixed;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 100px;
+    }
+
 }
 
 
