@@ -35,16 +35,7 @@ body {
     font-family: sans-serif;
 }
 
-.jumbotron1 {
-    background-image: url(images/bk-img.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 53% 16px;
-    background-attachment: fixed;
-   
-    padding-top: 150px;
-    padding-bottom: 100px;
-}
+
 
 .jumbotron1 h1 {
     font-size: 1rem;
@@ -344,6 +335,17 @@ body {
 
 .jumbotron1 .row {
     width: 80%;
+}
+
+.jumbotron1 {
+    background-image: url(images/bk-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 53% 16px;
+    background-attachment: fixed;
+   
+    padding-top: 150px;
+    padding-bottom: 100px;
 }
 
 
