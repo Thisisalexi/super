@@ -36,7 +36,7 @@ body {
 }
 
 .jumbotron1 {
-    background-image: url(/images/bk-img.jpg);
+    background-image: url(images/bk-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 53% 16px;
@@ -241,7 +241,7 @@ body {
 }
 
 .note {
-    background-image: url(/images/bk2.jpg);
+    background-image: url(images/bk2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 53% 16px;
@@ -373,7 +373,7 @@ body {
     }
 
     .jumbotron1 {
-        background-image: url(/images/bk-img.jpg);
+        background-image: url(images/bk-img.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 25% 16px;
@@ -490,7 +490,7 @@ body {
     }
     
     .note {
-        background-image: url(/images/bk2.jpg);
+        background-image: url(images/bk2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 25% 16px;
