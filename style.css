@@ -582,7 +582,7 @@ body {
         background-image: url(images/bk-img.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 25% 16px;
+        background-position: 100% 16px;
         background-attachment: fixed;
         padding-top: 150px;
         padding-bottom: 100px;
@@ -592,7 +592,7 @@ body {
         background-image: url(images/bk2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 25% 16px;
+        background-position: 100% 16px;
         background-attachment: fixed;
         padding-left: 0px;
         padding-top: 0px;
